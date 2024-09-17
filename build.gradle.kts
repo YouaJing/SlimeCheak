@@ -26,7 +26,7 @@ dependencies {
 }
 
 group = "tcc.youajing"
-version = "1.1"
+version = "1.2"
 var mainClass = "${rootProject.group}.${rootProject.name.lowercase()}.SlimeCheak"
 var pluginVersion: String = version.toString() + "-" + SimpleDateFormat("yyyyMMdd").format(System.currentTimeMillis())
 java.sourceCompatibility = JavaVersion.VERSION_21
